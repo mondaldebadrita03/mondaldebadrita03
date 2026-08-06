@@ -7,7 +7,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/debadrita-mondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="debadrita-mondal" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/debadrita03" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="debadrita03" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/debadrita-mondal2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="debadrita-mondal" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/debadritamondal2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="debadrita-mondal" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/mondaldebadrita" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mondaldebadrita" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/mondaldeclt7/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mondaldeclt7/profile" height="30" width="40" /></a>
 </p>
