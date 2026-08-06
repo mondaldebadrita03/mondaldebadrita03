@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Debadrita Mondal</h1>
 <h3 align="center">A passionate aspiring Full Stack developer from India</h3>
 
-- 📫 How to reach me **mondaldebadrita@gmail.com**
+📫 How to reach me **mondaldebadrita@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
