@@ -1,5 +1,5 @@
 # Hi 👋, I'm Debadrita Mondal
-<p>A passionate aspiring Full Stack developer from India</p>
+<p>A passionate aspiring Full Stack Web developer from India</p>
 
 ## 📫 Reach me <br>
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mondaldebadrita@gmail.com)
