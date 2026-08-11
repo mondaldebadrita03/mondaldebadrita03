@@ -1,6 +1,16 @@
 # Hi 👋, I'm Debadrita Mondal
 <p>A passionate aspiring Full Stack Web developer from India</p>
 
+## About Me
+* 👋 Hello, I'm Debadrita — a curious and creative learner who loves exploring new things.
+* 🌱 I enjoy learning, experimenting, and picking up new skills along the way.
+* 🧩 I love solving problems, figuring out how things work, and learning from the process.
+* 🚀 Currently focused on growing as a developer, one step at a time.
+* 💡 Always learning, exploring, or trying something new.
+* 🎨 Outside of tech, I'm a crochet artist and book lover who enjoys singing, playing guitar,<br> video editing, photography, and other creative pursuits.
+* ✨ Learn → Experiment → Create → Repeat
+
+
 ## 📫 Reach me <br>
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mondaldebadrita@gmail.com)
 
@@ -11,7 +21,9 @@
 <a href="https://www.codechef.com/users/debadrita03" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="debadrita03" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/debadritamondal2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="debadrita-mondal" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/mondaldebadrita" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mondaldebadrita" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/mondaldebadrita/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mondaldeclt7/profile" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/mondaldebadrita/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mondaldebadrita/profile" height="30" width="40" /></a>
+<a href="https://neetcode.io/user/GrandPoneglyph734" target="_blank"><img src="https://github.com/user-attachments/assets/ad8826ab-bd9e-4bcd-a309-9e6552fe557c"
+alt="NeetCode" width="40" height="30"></a>
 </p>
 
 ## 💻 My Weapons:
