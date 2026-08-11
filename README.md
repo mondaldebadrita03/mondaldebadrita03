@@ -17,13 +17,12 @@
 
 ## 🌐 Connect with Me:
 <p align="left">
-<a href="https://linkedin.com/in/debadrita-mondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="debadrita-mondal" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/debadrita03" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="debadrita03" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/debadritamondal2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="debadrita-mondal" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/mondaldebadrita" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mondaldebadrita" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/mondaldebadrita/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mondaldebadrita/profile" height="30" width="40" /></a>
-<a href="https://neetcode.io/user/GrandPoneglyph734" target="_blank"><img src="https://github.com/user-attachments/assets/ad8826ab-bd9e-4bcd-a309-9e6552fe557c"
-alt="NeetCode" width="40" height="30"></a>
+<a href="https://linkedin.com/in/debadrita-mondal" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40" height="30" alt="LinkedIn" style="display:block;"></a>
+<a href="https://www.codechef.com/users/debadrita03" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" width="40" height="30" alt="CodeChef" style="display:block;"></a>
+<a href="https://www.hackerrank.com/debadritamondal2" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" width="40" height="30" alt="HackerRank" style="display:block;"></a>
+<a href="https://www.leetcode.com/mondaldebadrita" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40" height="30" alt="LeetCode" style="display:block;"></a>
+<a href="https://auth.geeksforgeeks.org/user/mondaldebadrita/profile" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" width="40" height="30" alt="GeeksForGeeks" style="display:block;"></a>
+<a href="https://neetcode.io/user/GrandPoneglyph734" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://lh3.googleusercontent.com/CHKNh4u4LA3omJw37JKrlFWK2Q8SvyiVgTiXDYIIjVnTB8skIvfQ98xQlPhG30VuxDNWxzpUvjiI10e_jhocVEjB=s128-rj-sc0x00ffffff" width="30" height="30" alt="NeetCode" style="display:block;"></a>
 </p>
 
 ## 💻 My Weapons:
