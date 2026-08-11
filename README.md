@@ -6,8 +6,7 @@
 * 🌱 I enjoy learning, experimenting, and picking up new skills along the way.
 * 🧩 I love solving problems, figuring out how things work, and learning from the process.
 * 🚀 Currently focused on growing as a developer, one step at a time.
-* 💡 Always learning, exploring, or trying something new.
-* 🎨 Outside of tech, I'm a crochet artist and book lover who enjoys singing, playing guitar,<br> video editing, art, photography, and other creative pursuits.
+* 🎨 Outside of tech, I'm a bibliophile, who loves crocheting, enjoys singing, playing guitar,<br> video editing, art, photography, and other creative pursuits.
 * 🏋️‍♀️ I enjoy staying active, maintaining a healthy lifestyle and working towards becoming the <br>best version of myself.
 * ✨ Learn → Experiment → Create → Repeat
 
