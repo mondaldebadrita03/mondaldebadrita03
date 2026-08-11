@@ -1,5 +1,9 @@
 # Hi 👋, I'm Debadrita Mondal
-<h3>A passionate aspiring Full Stack developer from India</h3>
+<p>A passionate aspiring Full Stack developer from India</p>
+
+## 📫 How to reach me <br>
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mondaldebadrita@gmail.com)
+
 
 ## 🌐 Connect with Me:
 <p align="left">
@@ -21,5 +25,7 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ---
+![Profile Views](https://komarev.com/ghpvc/?username=mondaldebadrita03&color=blue&style=flat-square&label=PROFILE+VIEWS)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
