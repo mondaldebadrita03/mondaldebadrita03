@@ -23,6 +23,7 @@
 <a href="https://www.leetcode.com/mondaldebadrita" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40" height="30" alt="LeetCode" style="display:block;"></a>
 <a href="https://auth.geeksforgeeks.org/user/mondaldebadrita/profile" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" width="40" height="30" alt="GeeksForGeeks" style="display:block;"></a>
 <a href="https://neetcode.io/user/GrandPoneglyph734" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://lh3.googleusercontent.com/CHKNh4u4LA3omJw37JKrlFWK2Q8SvyiVgTiXDYIIjVnTB8skIvfQ98xQlPhG30VuxDNWxzpUvjiI10e_jhocVEjB=s128-rj-sc0x00ffffff" width="30" height="30" alt="NeetCode" style="display:block;"></a>
+<a href="https://codeforces.com/profile/mondaldebadrita" style="text-decoration:none; display:inline-block; line-height:0;"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="mondaldebadrita" height="30" width="30 style="display:block;" /></a>
 </p>
 
 ## 💻 My Weapons:
