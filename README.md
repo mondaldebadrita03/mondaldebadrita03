@@ -1,5 +1,5 @@
 # Hi 👋, I'm Debadrita Mondal
-<p>A passionate aspiring Full Stack Web developer from India</p>
+<p>A passionate Full Stack Web developer from India</p>
 
 ## About Me
 * 👋 Hello, I'm Debadrita — a curious and creative learner who loves exploring new things.
