@@ -14,13 +14,13 @@ jobs:
 
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Update LeetCode badges
         env:
           LEETCODE_USERNAME: mondaldebadrita
         run: |
-          python3 - <<'PY'
+          python3 <<'PY'
           import json
           import os
           import urllib.request
@@ -33,19 +33,25 @@ jobs:
 
           request = urllib.request.Request(
               api_url,
-              headers={"User-Agent": "GitHub-LeetCode-Badge-Updater"}
+              headers={
+                  "User-Agent": "Mozilla/5.0"
+              }
           )
 
-          with urllib.request.urlopen(request, timeout=30) as response:
-              payload = json.load(response)
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  payload = json.load(response)
+          except Exception as e:
+              raise RuntimeError(f"Failed to fetch LeetCode badges: {e}")
 
           if payload.get("status") != "success":
-              raise RuntimeError(f"LeetCode API error: {payload}")
+              raise RuntimeError(f"LeetCode API returned an error: {payload}")
 
-          badges = payload.get("data", {}).get("list", [])
+          data = payload.get("data", {})
+          badges = data.get("list", [])
 
           if not badges:
-              raise RuntimeError("No earned badges were returned.")
+              raise RuntimeError("No LeetCode badges were returned.")
 
           items = []
 
@@ -61,29 +67,43 @@ jobs:
               if not icon.startswith("https://"):
                   continue
 
-              safe_name = escape(name, quote=True)
-              safe_icon = escape(icon, quote=True)
+              safe_name = escape(str(name), quote=True)
+              safe_icon = escape(str(icon), quote=True)
 
               items.append(
                   f'<a href="https://leetcode.com/u/{username}/" '
                   f'title="{safe_name}">'
-                  f'<img src="{safe_icon}" alt="{safe_name}" width="90"/></a>'
+                  f'<img src="{safe_icon}" '
+                  f'alt="{safe_name}" width="90"/></a>'
               )
 
           if not items:
-              raise RuntimeError("Badge data contained no usable icons.")
+              raise RuntimeError("No usable LeetCode badge icons were found.")
 
-          badge_html = '<p align="center">\n' + " ".join(items) + '\n</p>"
+          badge_html = (
+              '<p align="center">\n'
+              + " ".join(items)
+              + '\n</p>'
+          )
 
-          readme = Path("README.md")
-          text = readme.read_text(encoding="utf-8")
+          readme_path = Path("README.md")
+
+          if not readme_path.exists():
+              raise RuntimeError("README.md was not found.")
+
+          text = readme_path.read_text(encoding="utf-8")
 
           start = "<!-- LEETCODE-BADGES:START -->"
           end = "<!-- LEETCODE-BADGES:END -->"
 
-          if start not in text or end not in text:
+          if start not in text:
               raise RuntimeError(
-                  "README.md is missing the LeetCode badge markers."
+                  "README.md is missing LEETCODE-BADGES:START"
+              )
+
+          if end not in text:
+              raise RuntimeError(
+                  "README.md is missing LEETCODE-BADGES:END"
               )
 
           before, remainder = text.split(start, 1)
@@ -99,7 +119,9 @@ jobs:
               + after
           )
 
-          readme.write_text(updated, encoding="utf-8")
+          readme_path.write_text(updated, encoding="utf-8")
+
+          print(f"Successfully updated {len(items)} LeetCode badges.")
           PY
 
       - name: Commit updated badges
@@ -109,7 +131,9 @@ jobs:
 
           git add README.md
 
-          git diff --cached --quiet || git commit \
-            -m "chore: update LeetCode badges"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No badge changes detected."
+          else
+            git commit -m "chore: update LeetCode badges"
+            git push
+          fi
