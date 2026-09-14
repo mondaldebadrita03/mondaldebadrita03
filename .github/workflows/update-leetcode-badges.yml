@@ -81,7 +81,7 @@ jobs:
               raise RuntimeError("No usable LeetCode badge icons were found.")
 
           badge_html = (
-              '<p align="center">\n'
+              '<p align="left">\n'
               + " ".join(items)
               + '\n</p>'
           )
