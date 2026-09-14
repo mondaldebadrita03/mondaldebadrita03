@@ -1,1 +1,87 @@
+name: Update LeetCode Badges
 
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update LeetCode badges
+        env:
+          LEETCODE_USERNAME: mondaldebadrita
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          username = os.environ["LEETCODE_USERNAME"]
+          url = f"https://leetcode-stats.tashif.codes/{username}/badges"
+
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "GitHub-LeetCode-Badge-Updater"}
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              payload = json.load(response)
+
+          if payload.get("status") != "success":
+              raise RuntimeError(f"LeetCode API error: {payload}")
+
+          badges = payload.get("data", {}).get("list", [])
+
+          if not badges:
+              raise RuntimeError("No earned badges were returned.")
+
+          items = []
+
+          for badge in badges:
+              name = badge.get("name", "LeetCode Badge")
+              icon = badge.get("icon")
+
+              if icon:
+                  items.append(
+                      f'<a href="https://leetcode.com/u/{username}/" '
+                      f'title="{name}"><img src="{icon}" alt="{name}" width="90"/></a>'
+                  )
+
+          if not items:
+              raise RuntimeError("Badge data contained no usable icons.")
+
+          badge_html = '<p align="center">\n' + " ".join(items) + '\n</p>'
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+
+          start = "<!-- LEETCODE-BADGES:START -->"
+          end = "<!-- LEETCODE-BADGES:END -->"
+
+          if start not in text or end not in text:
+              raise RuntimeError("README.md is missing the LeetCode badge markers.")
+
+          before, remainder = text.split(start, 1)
+          _, after = remainder.split(end, 1)
+
+          updated = before + start + "\n" + badge_html + "\n" + end + after
+          readme.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit updated badges
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update LeetCode badges"
+          git push
