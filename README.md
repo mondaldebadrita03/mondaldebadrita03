@@ -37,6 +37,8 @@
 </p>
 <!-- LEETCODE-BADGES:END -->
 
+[![An image of @mondaldebadrita03's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mondaldebadrita03)](https://holopin.io/@mondaldebadrita03)
+
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=mondaldebadrita03&theme=vision-friendly-dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=mondaldebadrita03&theme=vision-friendly-dark&hide_border=false)<br/>
