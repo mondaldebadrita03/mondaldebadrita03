@@ -37,6 +37,8 @@
 </p>
 <!-- LEETCODE-BADGES:END -->
 
+## 🎒 My Digital Sticker Board
+
 [![An image of @mondaldebadrita03's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mondaldebadrita03)](https://holopin.io/@mondaldebadrita03)
 
 ## 📊 GitHub Stats:
