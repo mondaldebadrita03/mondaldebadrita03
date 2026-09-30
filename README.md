@@ -33,7 +33,7 @@
 
 <!-- LEETCODE-BADGES:START -->
 <p align="left">
-<a href="https://leetcode.com/u/mondaldebadrita/" title="50 Days Badge 2026"><img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" width="90"/></a> <a href="https://leetcode.com/u/mondaldebadrita/" title="Aug LeetCoding Challenge"><img src="https://leetcode.com/static/images/badges/dcc-2026-8.png" alt="Aug LeetCoding Challenge" width="90"/></a>
+<a href="https://leetcode.com/u/mondaldebadrita/" title="50 Days Badge 2026"><img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" width="90"/></a> <a href="https://leetcode.com/u/mondaldebadrita/" title="Sep LeetCoding Challenge"><img src="https://leetcode.com/static/images/badges/dcc-2026-9.png" alt="Sep LeetCoding Challenge" width="90"/></a> <a href="https://leetcode.com/u/mondaldebadrita/" title="Aug LeetCoding Challenge"><img src="https://leetcode.com/static/images/badges/dcc-2026-8.png" alt="Aug LeetCoding Challenge" width="90"/></a>
 </p>
 <!-- LEETCODE-BADGES:END -->
 
